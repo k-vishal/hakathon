@@ -1,0 +1,16 @@
+
+<form #myForm="ngForm" (ngSubmit)="OnAddCallMe(myForm)">
+        <legend >Add New Copy</legend>
+        <div class="form-group" style="align-items: center">
+          <label for="enterBookId">Enter Book Id</label>
+          <input ngModel type="text" type="text" class="form-control" id="">
+        </div>
+    
+        <div class="form-group" style="align-items: center">
+            <label for="enterRackNo">Enter Rack no</label>
+            <input ngModel type="text" type="text" class="form-control" id="" >
+          </div>
+        <button type="submit" class="btn btn-success">Add New Copy</button>
+        
+      </form>
+      
